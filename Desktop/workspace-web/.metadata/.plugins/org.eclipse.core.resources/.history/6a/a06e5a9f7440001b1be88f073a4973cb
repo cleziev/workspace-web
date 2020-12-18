@@ -1,0 +1,5 @@
+package br.com.isidrocorp.dashcard.dto;
+
+public class ConsolidadoStatus {
+
+}

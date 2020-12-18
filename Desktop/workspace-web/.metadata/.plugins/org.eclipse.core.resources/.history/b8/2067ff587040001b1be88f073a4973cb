@@ -1,0 +1,5 @@
+package br.com.isidrocorp.dashcard.controller;
+
+public class TransacaoController extends CrudRepository<Transacao, Integer> {
+
+}

@@ -1,0 +1,12 @@
+package br.com.isidrocorp.dashcard.controller;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class UsuarioController {
+
+	
+	@GetMapping("/todos")
+	
+	
+}

@@ -1,0 +1,16 @@
+package br.com.isidrocorp.dashcard.controller;
+
+import org.springframework.web.bind.annotation.CrossOrigin;
+
+@RestContoller
+@CrossOrigin("*")
+
+public class TransacaoController {
+	
+	@Autowired
+	Transacao dao;
+	
+	
+	
+
+}

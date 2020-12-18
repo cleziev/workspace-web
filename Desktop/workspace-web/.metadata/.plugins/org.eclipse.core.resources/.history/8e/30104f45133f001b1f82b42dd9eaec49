@@ -1,0 +1,18 @@
+package br.com.isidrocorp.dashcard.controller;
+
+import java.util.ArrayList;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import br.com.isidrocorp.dashcard.model.Usuario;
+
+@RestController
+public class UsuarioController {
+
+	
+	@GetMapping("/todos")
+	public ArrayList<Usuario> recuperarTotos(){
+	
+}
+}

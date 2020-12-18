@@ -1,0 +1,9 @@
+package br.com.isidrocorp.dashcard.dto;
+
+public class ConsolidadoStatus {
+	private String 		nomeAgente;
+	private float		valume;
+	private int			status;
+	private long		numeroOp;  
+
+}

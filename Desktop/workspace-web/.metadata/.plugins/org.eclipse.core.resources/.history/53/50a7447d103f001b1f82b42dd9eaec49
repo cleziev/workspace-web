@@ -1,0 +1,34 @@
+package br.com.isidrocorp.dashcard.model;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+/* nesta classe, vamor criar uma estrutura "equivalente" à estrutura
+ * *da tabela, porém com as nossas nomenclaturas e noss estilo de escrita
+ *
+ * o segredo é fazer o "de-para" da nossa classe para a tabela 
+ */
+
+@Entity  // qndo usamos @Entity indicamos que a classe é armazenavel em BD
+@Table(name = "tbl_usuario") // a anotacao @Table permite especificar o nome da tabela
+public class Usuario {
+	@Id // indica que é chave primaria
+	@GeneratedValue (strategy = GenerationType.IDENTITY)
+	@Column(name = "id_usuario")
+	private int 	id;
+	
+	@Column(name = "nome_usuario", length = 100, nullable = false)
+	private String 	nome;
+	
+	@Column(name = "email_usuario",)
+	private String 	email;
+	private String 	racf;
+	private String 	senha;
+	private String 	linkFoto;
+
+		
+}

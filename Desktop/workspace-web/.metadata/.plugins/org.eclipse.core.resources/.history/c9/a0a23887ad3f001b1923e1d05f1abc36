@@ -1,0 +1,5 @@
+package br.com.isidrocorp.dashcard.dao;
+
+public interface AgenteFinanceiroDAO {
+
+}

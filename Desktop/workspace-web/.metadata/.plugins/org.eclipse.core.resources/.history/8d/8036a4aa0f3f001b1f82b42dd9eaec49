@@ -1,0 +1,22 @@
+package br.com.isidrocorp.dashcard.model;
+
+import javax.persistence.Entity;
+
+/* nesta classe, vamor criar uma estrutura "equivalente" à estrutura
+ * *da tabela, porém com as nossas nomenclaturas e noss estilo de escrita
+ *
+ * o segredo é fazer o "de-para" da nossa classe para a tabela 
+ */
+
+@Entity
+public class Usuario {
+	
+	private int 	id;
+	private String 	nome;
+	private String 	email;
+	private String 	racf;
+	private String 	senha;
+	private String 	linkFoto;
+
+		
+}

@@ -1,0 +1,12 @@
+package br.com.isidrocorp.dashcard.model;
+
+public class Transacao {
+	private int				id;
+	private LocalDateTime	dataHora;
+	private int				numDispositivo;
+	private float			valorSolicitado;
+	private float			valorAutorizado;
+	private int				status;
+	private AgenteFinanceiro agente;
+	
+}
